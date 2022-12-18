@@ -2,7 +2,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-        System.out.println("The Basic Structure is Ready please write down your code in this " +
-                "project");
+        SolarSystem Jinny = new SolarSystem();
+
+        Jinny.sun=1;
+        Jinny.Moon=2;
+        Jinny.Planets=3;
+        
     }
 }
